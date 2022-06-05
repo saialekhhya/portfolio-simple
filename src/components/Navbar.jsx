@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import {FaBars,FaTimes,FaGithub,FaLinkedin,} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
-import Logo from '../assets/logo.png'
+import {MdOutlinePersonPin} from 'react-icons/md'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#AC9872] text-white'>
         <div className=''>
-            <img src={Logo} alt='logo' style={{width:'50px'}}></img>
+            <MdOutlinePersonPin size={25}/>
         </div>
 
         {/* Menu */}

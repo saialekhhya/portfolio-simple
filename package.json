@@ -1,7 +1,7 @@
 {
   "name": "portfolio-simple",
   "version": "0.1.0",
-  "homepage":"https://saialekhhya.github.io",
+  "homepage":"https://saialekhhya.github.io/portfolio-simple/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
